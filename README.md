@@ -2,7 +2,7 @@
 
 Este proyecto implementa el algoritmo de **Búsqueda Secuencial** en Python. El programa procesa un archivo de texto con 50,000 números, los ordena y permite al usuario realizar búsquedas midiendo el tiempo de ejecución en milisegundos.
 
-## 🚀 Análisis de Complejidad
+##  Análisis de Complejidad
 
 La búsqueda secuencial es uno de los algoritmos más sencillos, pero su eficiencia depende directamente del tamaño de la entrada ($n$).
 
@@ -11,7 +11,7 @@ La búsqueda secuencial es uno de los algoritmos más sencillos, pero su eficien
 * **Mejor caso $O(1)$:** Ocurre cuando el elemento buscado es el primero en la lista.
 * **Complejidad Espacial:** $O(1)$ adicional, ya que no requiere estructuras de datos extra para la búsqueda más allá de la lista original.
 
-## 💡 Casos de Uso
+##  Casos de Uso
 
 ¿Cuándo es recomendable usar la búsqueda secuencial?
 1.  **Listas no ordenadas:** Es el único método efectivo si los datos no tienen un orden específico.
@@ -19,7 +19,7 @@ La búsqueda secuencial es uno de los algoritmos más sencillos, pero su eficien
 3.  **Simplicidad:** Cuando se requiere una implementación rápida y fácil de depurar sin importar el rendimiento extremo.
 4.  **Búsqueda única:** Si solo vas a buscar un elemento una sola vez, a veces no vale la pena el costo computacional de ordenar la lista para usar algoritmos más rápidos.
 
-## 📊 Comparativa Teórica: Búsqueda Secuencial vs. Búsqueda Binaria
+##  Comparativa Teórica: Búsqueda Secuencial vs. Búsqueda Binaria
 
 | Característica | Búsqueda Secuencial | Búsqueda Binaria |
 | :--- | :--- | :--- |
